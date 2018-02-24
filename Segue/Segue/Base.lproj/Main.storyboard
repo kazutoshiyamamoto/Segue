@@ -48,14 +48,24 @@
                                 <rect key="frame" x="45" y="121" width="175" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9j-VP-pB2">
+                                <rect key="frame" x="46" y="62" width="173" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Go back Home"/>
+                                <connections>
+                                    <segue destination="dFJ-sq-lFR" kind="unwind" unwindAction="comeHomeWithSegue:" id="Vjt-Yx-bxg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1137254902" green="0.91372549020000005" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="2Mg-iG-vZ7"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mV0-jq-PZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="dFJ-sq-lFR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="33"/>
+            <point key="canvasLocation" x="1357.5999999999999" y="32.833583208395808"/>
         </scene>
     </scenes>
     <resources>
